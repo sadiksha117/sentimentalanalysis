@@ -14,11 +14,11 @@ probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Train Loss: 0.1391
-- Train Accuracy: 0.9523
-- Validation Loss: 0.1285
-- Validation Accuracy: 0.9551
-- Epoch: 0
+- Train Loss: 0.0971
+- Train Accuracy: 0.9690
+- Validation Loss: 0.1290
+- Validation Accuracy: 0.9569
+- Epoch: 1
 
 ## Model description
 
@@ -45,6 +45,7 @@ The following hyperparameters were used during training:
 | Train Loss | Train Accuracy | Validation Loss | Validation Accuracy | Epoch |
 |:----------:|:--------------:|:---------------:|:-------------------:|:-----:|
 | 0.1391     | 0.9523         | 0.1285          | 0.9551              | 0     |
+| 0.0971     | 0.9690         | 0.1290          | 0.9569              | 1     |
 
 
 ### Framework versions
